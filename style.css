@@ -1,0 +1,161 @@
+body{
+	background-color:hsl(30, 38%, 92%) ;
+
+}
+
+
+.card{
+	flex-direction: row;
+	position: absolute;
+	width: 680px;
+	height: 480px;
+	top: 50%;
+	left: 50%;
+	background-color: white;
+	transform: translate(-50%, -50%);
+	border-radius: 20px;
+}
+
+.img-desktop{
+	position: absolute;
+	width: 325px;
+	height: 480px;
+	float: left;
+	border-radius: 20px 0px 0px  20px;
+}
+
+.img-mobile{
+	display: none;
+}
+/* responisve 375 mobile */
+@media (max-width: 425px){
+.card{
+	display:flex ;
+	flex-direction: column;
+	width: 380px;
+	height: 650px;
+	border-radius: 20px 20px 20px  20px;
+
+}
+
+.img-desktop{
+	display: none;
+}
+.img-mobile{
+	display: block;
+	width:380px ;
+	height: 260px;
+	border-radius: 20px 20px 0px  0px;
+}
+
+.texts{
+	margin-top: -0.5px!important;
+	margin-left: 20px;
+	margin-left: 30px!important;
+}
+
+
+.hh1{
+width: 260px !important;
+}
+.p1{
+width: 320px !important;
+}
+.price{
+	margin-top: 40px!important;
+	margin-bottom: -15px !important;
+}
+.btn button{
+	width: 320px !important;
+}
+
+}
+
+
+
+
+/* end resoonsive */
+
+
+.texts{
+	display: flex;
+	flex-direction: column;
+	float: right;
+	margin-right: 65px;
+	margin-top: 25px;
+	/* margin-left: 360px; */
+}
+
+.hh5{
+	color: hsl(228, 12%, 48%);
+	letter-spacing: 4px; 
+	font-size: 14px;
+	font-weight: 500;
+	font-family: 'Montserrat', sans-serif;}
+
+.hh1{
+	font-size: 30px;
+	margin-top: -5px;
+	width: 250px;
+	line-height: 30px;
+font-family: 'Fraunces', serif;
+font-weight: 700;
+}
+
+.p1{
+	margin-top: -5px;
+	font-weight: 500;
+	font-size: 14px;
+	color: hsl(228, 12%, 48%);
+	line-height: 22px;
+	font-family: 'Montserrat', sans-serif;
+width: 230px;
+}
+
+
+.price{
+	margin-top: 15px;
+	display: flex;
+	flex-direction: row;
+}
+
+.price1{
+	color: hsl(158, 36%, 37%);
+	font-family: 'Fraunces', serif;
+font-weight: 700;
+font-size: 30px;
+}
+
+.price2{
+	font-family: 'Montserrat', sans-serif;
+	color: hsl(228, 12%, 48%);
+	font-size: 14px;
+margin-top: 10px;
+margin-left: 30px;
+}
+
+.btn{
+	margin-top: 35px;
+	margin-right: -40px;
+}
+.btn button{
+	cursor: pointer;
+	border: none;
+	width: 270px;
+	height:50px;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+font-weight: 500;
+
+	font-size: 15px;
+background-color: hsl(158, 36%, 37%);
+	border-radius: 10px;
+}
+button span{
+	margin-top: 7px;
+	margin-right: 5px;}
+
+
+	button:hover{
+		background-color:  hsl(157, 35%, 22%);
+	}
